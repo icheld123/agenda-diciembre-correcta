@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AGENDA DE EGRESADOS: NOVIEMBRE</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/calendar.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Noto+Sans:wght@700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="normalize_reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="w3data.js"></script>
+    <script src="loadmore.js"></script>
+</head>
+
+<body class="contenedor">
+    <header>
+        <div class="navbar" w3-include-HTML="imports/navbar.html"></div>
+    </header>
+    <div id="contenedor">
+        <div id="main">
+            <h3>Estos son los eventos de investigación del mes de Septiembre.</h3>
+            <div id="paginacion">
+                <a href="#" class="boton boton-amarillo" id="prev">Anterior</a>
+                <a href="#" class="boton boton-amarillo" id="next">Siguiente</a>
+            </div>
+            <h4>¡Para ingresar al evento, sólo debes dar clic en el ícono de la página bajo cada evento!</h4>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page1">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>1er congreso Internacional de bilingüismo TEFL: NEW TEACHING TENDENCIES IN VIRTUAL EDUCATION.</p>
+                            <p class="fecha">Fecha: 02 al 03 de diciembre de 2021</p>
+                            <p class="fecha">Hora: 08:00 a.m - 12:00 p.m</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://forms.gle/xvKNJ8bdmtAU9u7aA"
+                                        target="_blank" id="botones"
+                                        class="boton boton-amarillo d-block">Inscribirse</a>
+                                        <a href="https://eventos.unad.edu.co/%20https://youtu.be/7J2m0gFRDWo"
+                                        target="_blank" id="botones"
+                                        class="boton boton-amarillo d-block">Transmisión youtube 02/12</a>
+                                        <a href="https://youtu.be/p29UDup66VY"
+                                        target="_blank" id="botones"
+                                        class="boton boton-amarillo d-block">Transmisión youtube 03/12</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 id="hashtag"><i>#SigamosEnContacto.</i></h3>
+    <footer class="footer">
+        <iframe src="imports/footer.html"
+            onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
+    </footer>
+</body>
+
+</html>
+<script>
+    w3IncludeHTML();
+</script>
